@@ -65,7 +65,7 @@ BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
 
 ​
 
-제 라즈베리파이 운영체제의 버전은 10(buster)라고 합니다. 
+<!-- 제 라즈베리파이 운영체제의 버전은 10(buster)라고 합니다.  -->
 
 ​
 
@@ -87,17 +87,7 @@ blog.naver.com
 
 ​
 
-OpenCV 설치
-
-OpenCV는 Open Computer Vision으로 
-
-오픈소스화된 컴퓨터 비전처리 라이브러리입니다. 
-
-아마 컴퓨터로 영상처리를 한다면, 
-
-가장 많이 사용되는 라이브러리라고 볼 수 있습니다. 
-
-거의 필수입니다. 
+O
 
 ​
 
@@ -115,11 +105,11 @@ A thorough guide on how to install OpenCV 4.1.2 on your Raspberry Pi 4 with CMak
 
 qengineering.eu
 
-하나씩 따라하다보면 1시간 정도 걸리는 것 같습니다. 
+ 
 
 ​
 
-이제 본격적으로 OpenCV를 사용해보죠.
+
 
 ​
 
@@ -143,26 +133,18 @@ python이라는 폴더가 있습니다.
 
 그 외에도 cpp라는 폴더, java라는 폴더도 있는데 언어에 따른 샘플들을 가지고 있습니다. 
 
-뭔가 opencv 놀이터 같은 느낌이죠?
 
 ​
 
 
-확장자가 모두 py로 되어 있다는 것은 모두 파이썬 파일이라는 말입니다. 
 
-그 중에서 facedetect.py를 실행해볼께요. 
-
-​
-
-우리가 사용하는 파이썬은 버전 3라서 파일을 실행하기 위해서는 "python3 [파일명]"을 입력합니다. 
-
-python3 facedetect.py를 입력해볼께요. 
+그 중에서 facedetect.py를 실행
 
 ​
 
-마스크를 쓰고 있을 때는 얼굴 인식을 하기 어렵다는 것을 느낍니다. 
+사용하는 파이썬은 버전 3라서 파일을 실행하기 위해서는 "python3 [파일명]"을 입력 
 
-거의 인식이 안되네요. 
+python3 facedetect.py를 입력 
 
 ​
 
@@ -170,6 +152,8 @@ python3 facedetect.py를 입력해볼께요.
 
 ​
 
-그 이유에 대해서는 다음 시간에 포스팅하고, 
 
-텐서플로를 통한 인식 개선을 다뤄볼께요. 
+
+​
+
+
